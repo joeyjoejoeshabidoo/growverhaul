@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_Mud</defName>
+    <label>mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_Peat</defName>
+    <label>peat</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_Gravel</defName>
+    <label>gravel</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_DepletedSoil</defName>
+    <label>depleted soil</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_FineForsakenSand</defName>
+    <label>fine forsaken sand</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_ParchedMud</defName>
+    <label>parched mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_FertileMud</defName>
+    <label>fertile mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_MycoticSoil</defName>
+    <label>mycotic soil</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_FineRedSand</defName>
+    <label>fine red sand</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_VolcanicAsh</defName>
+    <label>volcanic ash</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_BlightedAshCoveredSoil</defName>
+    <label>blighted ash covered soil</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_BlightedMud</defName>
+    <label>blighted mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_BlightedAshCoveredGravel</defName>
+    <label>blighted ash covered gravel</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_SlimyMud</defName>
+    <label>slimy mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_ForsakenMud</defName>
+    <label>forsaken mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_TarredMud</defName>
+    <label>tarred mud</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+    
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_Worms</defName>
+    <label>worms</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+    
+  <ThingDef ParentName="ResourceBase">
+    <defName>SG_WormStarter</defName>
+    <label>worm starter</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+
+</Defs>
