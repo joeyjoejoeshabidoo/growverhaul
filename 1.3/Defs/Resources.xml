@@ -38,6 +38,24 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
+    <defName>SG_Gravel</defName>
+    <label>gravel</label>
+    <description>Placeholder.</description>
+    <graphicData>
+      <texPath>Ressources/ResourceSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>.01</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Soils</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
     <defName>SG_DepletedSoil</defName>
     <label>depleted soil</label>
     <description>Placeholder.</description>
