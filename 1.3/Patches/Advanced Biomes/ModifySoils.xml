@@ -14,7 +14,7 @@
 												<li>SR.PlaceWorker_Soil</li>
 											</placeWorkers>
 											<costList>
-												<SR_StonySoil>8</SR_StonySoil>
+												<SR_Gravel>8</SR_Gravel>
 												<SG_VolcanicAsh>8</SG_VolcanicAsh>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
