@@ -114,7 +114,7 @@
 												<li>SR.PlaceWorker_Soil</li>
 											</placeWorkers>
 											<costList>
-												<SG_FertileMud>10</SG_FertileMud>
+												<SG_FertileMud>8</SG_FertileMud>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
 											<designationCategory>Floors</designationCategory>
@@ -128,7 +128,7 @@
 												<li>SR.PlaceWorker_Soil</li>
 											</placeWorkers>
 											<costList>
-												<SG_FertileMud>10</SG_FertileMud>
+												<SG_FertileMud>8</SG_FertileMud>
 												<SG_Worms>2</SG_Worms>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
@@ -494,6 +494,35 @@
                     </value>
                 </li>
 
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "AB_FertileMud"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SG_FertileMud>10</SG_FertileMud>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "AB_FertileGrassyFlowerySoil"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SR_Soil>10</SR_Soil>
+												<SG_Worms>2</SG_Worms>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
                 <!--WorkToBuild, MarketValue-->
                 <li Class="PatchOperationAdd">
 									<xpath>/Defs/TerrainDef[defName = "AB_DenseMud"]/statBases</xpath>
@@ -760,6 +789,22 @@
 									</value>
 								</li>
 
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "AB_FertileMud"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "AB_FertileGrassyFlowerySoil"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+
 								<!--Diggable-->
 								<li Class="PatchOperationAdd">
 									<xpath>/Defs/TerrainDef[defName = "AB_TarMud"]/affordances</xpath>
@@ -819,6 +864,10 @@
 														
 								<li Class="PatchOperationRemove">
 									<xpath>/Defs/TerrainDef[defName = "AB_TarMud"]/driesTo</xpath>
+								</li>
+
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_FertileMud"]/driesTo</xpath>
 								</li>
 						</operations>
 				</match>
