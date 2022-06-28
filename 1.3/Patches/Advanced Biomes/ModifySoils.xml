@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Advanced Biomes (Continued)</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            		<!--designatorDropdown, costList, designationCategory-->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "VolcanoSoil"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SR_StonySoil>8</SR_StonySoil>
+												<SG_VolcanicAsh>8</SG_VolcanicAsh>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "VolcanoSoilRich"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SR_RichSoil>8</SR_RichSoil>
+												<SG_VolcanicAsh>8</SG_VolcanicAsh>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "VolcanoObsidian"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SG_Gravel>10</SG_Gravel>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+								<!--WorkToBuild, MarketValue-->
+                <li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "VolcanoSoil"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "VolcanoSoilRich"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "VolcanoObsidian"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+						</operations>
+				</match>
+		</Operation>
+</Patch>
