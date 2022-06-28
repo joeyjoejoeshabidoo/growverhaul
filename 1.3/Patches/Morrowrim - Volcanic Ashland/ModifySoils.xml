@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>MorrowRim</li>
+            <li>MorrowRim - Volcanic Ashlands</li>
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
