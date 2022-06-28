@@ -795,6 +795,31 @@
 										<li>Diggable</li>
 									</value>
 								</li>
+
+								<!--Removing DriesTo-->
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_WebbedMarshyTerrain"]/driesTo</xpath>
+								</li>
+
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_DarkMud"]/driesTo</xpath>
+								</li>
+																
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_FineSand"]/driesTo</xpath>
+								</li>
+															
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_SlimyMud"]/driesTo</xpath>
+								</li>
+													
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "GU_AlienSandFine"]/driesTo</xpath>
+								</li>
+														
+								<li Class="PatchOperationRemove">
+									<xpath>/Defs/TerrainDef[defName = "AB_TarMud"]/driesTo</xpath>
+								</li>
 						</operations>
 				</match>
 		</Operation>
