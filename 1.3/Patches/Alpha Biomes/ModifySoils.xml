@@ -129,7 +129,7 @@
 											</placeWorkers>
 											<costList>
 												<SG_FertileMud>10</SG_FertileMud>
-												<SG_Worms>1</SG_Worms>
+												<SG_Worms>2</SG_Worms>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
 											<designationCategory>Floors</designationCategory>
@@ -258,7 +258,7 @@
 											</placeWorkers>
 											<costList>
 												<SG_MycoticSoil>10</SG_MycoticSoil>
-												<SG_Worms>1</SG_Worms>
+												<SG_Worms>2</SG_Worms>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
 											<designationCategory>Floors</designationCategory>
@@ -273,7 +273,7 @@
 											</placeWorkers>
 											<costList>
 												<SG_MycoticSoil>10</SG_MycoticSoil>
-												<WHC_Compost>1</WHC_Compost>
+												<WHC_Compost>2</WHC_Compost>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
 											<designationCategory>Floors</designationCategory>
@@ -304,7 +304,7 @@
 											<costList>
 												<SR_Soil>10</SR_Soil>
 												<SG_FineRedSand>10</SG_FineRedSand>
-												<SG_Worms>1</SG_Worms>
+												<SG_Worms>2</SG_Worms>
 											</costList>
 											<designatorDropdown>SR</designatorDropdown>
 											<designationCategory>Floors</designationCategory>
