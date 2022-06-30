@@ -330,7 +330,7 @@
  <RecipeDef>
     <defName>SG_DepletedSoilRecipe</defName>
     <label>make depleted soil from gravel and compost</label>
-    <description>Make soil x1 from gravel and compost.</description>
+    <description>Make depleted soil x1 from gravel and compost.</description>
     <jobString>Making depleted soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
