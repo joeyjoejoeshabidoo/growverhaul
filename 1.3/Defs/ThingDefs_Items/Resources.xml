@@ -6,7 +6,7 @@
     <label>mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -24,7 +24,7 @@
     <label>peat</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourcePeat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -42,7 +42,7 @@
     <label>gravel</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceGravel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -60,7 +60,7 @@
     <label>depleted soil</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceDepletedSoil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -78,7 +78,7 @@
     <label>fine forsaken sand</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceForsakenSand</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -96,7 +96,7 @@
     <label>parched mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceParchedMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -114,7 +114,7 @@
     <label>fertile mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceFertileMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -132,7 +132,7 @@
     <label>mycotic soil</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceMycoticSoil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -150,7 +150,7 @@
     <label>fine red sand</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceRedSand</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -168,7 +168,7 @@
     <label>volcanic ash</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceVolcanicAshes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -186,7 +186,7 @@
     <label>blighted ash covered soil</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceBlightedAshCoveredSoil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -204,7 +204,7 @@
     <label>blighted mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceBlightedMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -222,7 +222,7 @@
     <label>blighted ash covered gravel</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceBlightedGravel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -240,7 +240,7 @@
     <label>slimy mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceSlimyMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -258,7 +258,7 @@
     <label>forsaken mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceForsakenMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -276,7 +276,7 @@
     <label>tarred mud</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceTarredMud</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -294,7 +294,7 @@
     <label>worms</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceWorms</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -312,7 +312,7 @@
     <label>worm starter</label>
     <description>Placeholder.</description>
     <graphicData>
-      <texPath>Ressources/ResourceSoil</texPath>
+      <texPath>Ressources/ResourceWormStarter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
