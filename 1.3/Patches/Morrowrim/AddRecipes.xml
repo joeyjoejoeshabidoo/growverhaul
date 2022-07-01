@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Morrowrim</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            	<li Class="PatchOperationAdd">
+            		<xpath>/Defs</xpath>
+            		<value>
+            			<RecipeDef>
+    								<defName>SG_BlightedAshSoilRecipe</defName>
+    								<label>make blighted ash covered soil from volcanic ash and depleted soil</label>
+    								<description>Make blighted ash covered soil x10 from volcanic ash and depleted soil.</description>
+    								<jobString>Making blighted ash covered soil.</jobString>
+    								<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    								<effectWorking>CutStone</effectWorking>
+    								<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    								<allowMixingIngredients>true</allowMixingIngredients>
+    								<workAmount>200</workAmount>
+    								<targetCountAdjustment>10</targetCountAdjustment>
+    								<ingredients>
+      								<li>
+        								<filter>
+          								<thingDefs>
+          									<li>SG_VolcanicAsh</li>
+         								 </thingDefs>
+     								   </filter>
+     								   <count>1</count>
+   								   </li>
+   								   <li>
+   								   	<filter>
+  								    		<thingDefs>
+      											<li>SG_DepletedSoil</li>
+     								 		</thingDefs>
+    								  	</filter>
+    								  	<count>9</count>
+   								   </li>
+  								  </ingredients>
+  								  <fixedIngredientFilter>
+  								    <thingDefs>
+    								  	<li>SG_VolcanicAsh</li>
+   								   		<li>SG_DepletedSoil</li>
+  								    </thingDefs>
+ 								   </fixedIngredientFilter>
+ 								   <products>
+  								    <SG_BightedAshCoveredSoil>10</SG_BightedAshCoveredSoil>
+  								  </products>
+ 								   <recipeUsers>
+ 								     <li>SG_GardeningTable</li>
+ 								   </recipeUsers>
+								  </RecipeDef>
+            		</value>
+            	</li>
+
+              <li Class="PatchOperationAdd">
+                <xpath>/Defs</xpath>
+                <value>
+                  <RecipeDef>
+                    <defName>SG_BlightedAshGravelRecipe</defName>
+                    <label>make blighted ash covered gravel from volcanic ash and gravel</label>
+                    <description>Make blighted ash covered gravel x10 from volcanic ash and gravel.</description>
+                    <jobString>Making blighted ash covered gravel.</jobString>
+                    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                    <effectWorking>CutStone</effectWorking>
+                    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+                    <allowMixingIngredients>true</allowMixingIngredients>
+                    <workAmount>200</workAmount>
+                    <targetCountAdjustment>10</targetCountAdjustment>
+                    <ingredients>
+                      <li>
+                        <filter>
+                          <thingDefs>
+                            <li>SG_VolcanicAsh</li>
+                         </thingDefs>
+                       </filter>
+                       <count>1</count>
+                     </li>
+                     <li>
+                      <filter>
+                          <thingDefs>
+                            <li>SG_Gravel</li>
+                        </thingDefs>
+                        </filter>
+                        <count>9</count>
+                     </li>
+                    </ingredients>
+                    <fixedIngredientFilter>
+                      <thingDefs>
+                        <li>SG_VolcanicAsh</li>
+                        <li>SG_Gravel</li>
+                      </thingDefs>
+                   </fixedIngredientFilter>
+                   <products>
+                      <SG_BightedAshCoveredGravel>10</SG_BightedAshCoveredGravel>
+                    </products>
+                   <recipeUsers>
+                     <li>SG_GardeningTable</li>
+                   </recipeUsers>
+                  </RecipeDef>
+                </value>
+              </li>
+
+              <li Class="PatchOperationAdd">
+                <xpath>/Defs</xpath>
+                <value>
+                  <RecipeDef>
+                    <defName>SG_BlightedMudRecipe</defName>
+                    <label>make blighted mud from volcanic ash and mud</label>
+                    <description>Make blighted mud x10 from volcanic ash and depleted soil.</description>
+                    <jobString>Making blighted mud.</jobString>
+                    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                    <effectWorking>CutStone</effectWorking>
+                    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+                    <allowMixingIngredients>true</allowMixingIngredients>
+                    <workAmount>200</workAmount>
+                    <targetCountAdjustment>10</targetCountAdjustment>
+                    <ingredients>
+                      <li>
+                        <filter>
+                          <thingDefs>
+                            <li>SG_VolcanicAsh</li>
+                         </thingDefs>
+                       </filter>
+                       <count>1</count>
+                     </li>
+                     <li>
+                      <filter>
+                          <thingDefs>
+                            <li>SG_Mud</li>
+                        </thingDefs>
+                        </filter>
+                        <count>9</count>
+                     </li>
+                    </ingredients>
+                    <fixedIngredientFilter>
+                      <thingDefs>
+                        <li>SG_VolcanicAsh</li>
+                        <li>SG_Mud</li>
+                      </thingDefs>
+                   </fixedIngredientFilter>
+                   <products>
+                      <SG_BightedMud>10</SG_BightedMud>
+                    </products>
+                   <recipeUsers>
+                     <li>SG_GardeningTable</li>
+                   </recipeUsers>
+                  </RecipeDef>
+                </value>
+              </li>
+
+            	<li Class="PatchOperationAdd">
+            		<xpath>/Defs</xpath>
+            		<value>
+            			<RecipeDef>
+    								<defName>SG_ExtractVolcanicAshFromBlightedRecipe</defName>
+    								<label>make volcanic ash from blighted ash covered ground</label>
+    								<description>Make volcanic ash x1 from blighted ash covered ground.</description>
+    								<jobString>Extracting volcanic ash.</jobString>
+    								<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    								<effectWorking>CutStone</effectWorking>
+    								<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    								<allowMixingIngredients>true</allowMixingIngredients>
+    								<workAmount>200</workAmount>
+    								<targetCountAdjustment>10</targetCountAdjustment>
+    								<ingredients>
+      								<li>
+        								<filter>
+          								<thingDefs>
+          									<li>SG_BightedAshCoveredSoil</li>
+          									<li>SG_BightedAshCoveredGravel</li>
+          									<li>SG_BightedMud</li>
+         								 </thingDefs>
+     								   </filter>
+     								   <count>10</count>
+   								   </li>
+  								  </ingredients>
+  								  <fixedIngredientFilter>
+  								    <thingDefs>
+    								  	<li>SG_BightedAshCoveredSoil</li>
+          							<li>SG_BightedAshCoveredGravel</li>
+          							<li>SG_BightedMud</li>
+  								    </thingDefs>
+ 								   </fixedIngredientFilter>
+ 								   <products>
+  								    <SG_VolcanicAsh>1</SG_VolcanicAsh>
+  								  </products>
+ 								   <recipeUsers>
+ 								     <li>SG_GardeningTable</li>
+ 								   </recipeUsers>
+								  </RecipeDef>
+            		</value>
+            	</li>
+            </operations>
+         </match>
+    </Operation>
+</Patch>
