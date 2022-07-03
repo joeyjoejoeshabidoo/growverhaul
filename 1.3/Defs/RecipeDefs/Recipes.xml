@@ -369,4 +369,38 @@
       <li>SG_GardeningTable</li>
     </recipeUsers>
   </RecipeDef>
+
+   <RecipeDef>
+    <defName>SG_DepletedSoilToMudRecipe</defName>
+    <label>make mud from depleted soil</label>
+    <description>Make mud x10 from depleted soil.</description>
+    <jobString>Rehydrating depleted soil.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+      	<filter>
+      		<thingDefs>
+      			<li>SG_DepletedSoil</li>
+      		</thingDefs>
+      	</filter>
+      	<count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      	<li>SG_DepletedSoil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SG_Mud>10</SG_Mud>
+    </products>
+    <recipeUsers>
+      <li>SG_Faucet</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>
