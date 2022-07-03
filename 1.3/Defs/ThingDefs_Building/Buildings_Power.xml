@@ -7,7 +7,7 @@
     <thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Things/Building/Power/ChemfuelPoweredGenerator</texPath>
+      <texPath>Buildings/PeatFiredGenerator</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
       <shadowData>
