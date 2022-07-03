@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+            	<li Class="PatchOperationAdd">
+            		<xpath>/Defs</xpath>
+            		<value>
+            			<RecipeDef>
+    								<defName>SG_IceMeltRecipe</defName>
+    								<label>make water from ice</label>
+    								<description>Make water x10 from ice.</description>
+    								<jobString>Melting ice.</jobString>
+    								<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    								<effectWorking>Cook</effectWorking>
+    								<soundWorking>Recipe_Brewing</soundWorking>
+    								<allowMixingIngredients>true</allowMixingIngredients>
+    								<workAmount>200</workAmount>
+    								<targetCountAdjustment>10</targetCountAdjustment>
+    								<ingredients>
+      								<li>
+        								<filter>
+          								<thingDefs>
+          									<li>SR_Ice</li>
+         								 </thingDefs>
+     								   </filter>
+     								   <count>10</count>
+   								   </li>
+  								  </ingredients>
+  								  <fixedIngredientFilter>
+  								    <thingDefs>
+   								   		<li>SR_Ice</li>
+  								    </thingDefs>
+ 								   </fixedIngredientFilter>
+ 								   <products>
+  								    <DBH_WaterBottle>10</DBH_WaterBottle>
+  								  </products>
+ 								   <recipeUsers>
+ 								     <li>ElectricStove</li>
+                     <li>FueledStove</li>
+                     <li>Campfire</li>
+ 								   </recipeUsers>
+								  </RecipeDef>
+            		</value>
+            	</li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
