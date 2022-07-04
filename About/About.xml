@@ -38,6 +38,6 @@
         <li>Mlie.AdvancedBiomes</li>
     </loadAfter>
     <packageId>Joeyjoejoeshabidoo.Growverhaul</packageId>
-    <description>Placeholder.
+    <description>An addon to the soil framework and composter addon supporting modded biomes while allowing the player new methods of soil creation.
     </description>
 </ModMetaData>
