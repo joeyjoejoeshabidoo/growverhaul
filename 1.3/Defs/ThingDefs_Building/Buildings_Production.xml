@@ -3,7 +3,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>SG_GardeningTable</defName>
     <label>gardening table</label>
-    <description>placeholder</description>
+    <description>A simple table for yard work.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/GardeningBench/GardeningBench</texPath>
@@ -59,7 +59,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>SG_Faucet</defName>
     <label>faucet</label>
-    <description>placeholder</description>
+    <description>A faucet, normally built outdoors. Useful for watering crops, treating dry soil or getting a drink.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/Faucet/Faucet</texPath>
