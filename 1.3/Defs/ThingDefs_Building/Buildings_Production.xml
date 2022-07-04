@@ -11,8 +11,8 @@
       <drawSize>(2.5,1.5)</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <shadowData>
-        <volume>(1.85, 0.3, 1)</volume>
-        <offset>(0, 0, 0.20)</offset>
+        <volume>(1.8, 0.5, 1)</volume>
+        <offset>(0.1, 0, -0.1)</offset>
       </shadowData>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -67,8 +67,8 @@
       <drawSize>(1,1)</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <shadowData>
-        <volume>(1, 0.3, 1)</volume>
-        <offset>(0, 0, 0.20)</offset>
+        <volume>(0.15, 0.78, 0.15)</volume>
+        <offset>(0,0,0)</offset>
       </shadowData>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
