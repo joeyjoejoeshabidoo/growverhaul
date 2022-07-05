@@ -45,7 +45,7 @@
   								    </thingDefs>
  								   </fixedIngredientFilter>
  								   <products>
-  								    <SG_DepletedSoil>1</SG_DepletedSoil>
+  								    <SG_ParchedMud>1</SG_ParchedMud>
   								  </products>
  								   <recipeUsers>
  								     <li>SG_GardeningTable</li>
