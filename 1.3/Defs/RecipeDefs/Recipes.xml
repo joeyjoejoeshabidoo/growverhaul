@@ -374,7 +374,7 @@
     <defName>SG_DepletedSoilToMudRecipe</defName>
     <label>make mud from depleted soil</label>
     <description>Make mud x10 from depleted soil.</description>
-    <jobString>Rehydrating depleted soil.</jobString>
+    <jobString>Saturating depleted soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
     <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -394,6 +394,108 @@
     <fixedIngredientFilter>
       <thingDefs>
       	<li>SG_DepletedSoil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SG_Mud>10</SG_Mud>
+    </products>
+    <recipeUsers>
+      <li>SG_Faucet</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+   <RecipeDef>
+    <defName>SR_StonySoilToMudRecipe</defName>
+    <label>make mud from stony soil</label>
+    <description>Make mud x10 from stony soil.</description>
+    <jobString>Saturating stony soil.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+      	<filter>
+      		<thingDefs>
+      			<li>SR_Gravel</li>
+      		</thingDefs>
+      	</filter>
+      	<count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      	<li>SR_Gravel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SG_Mud>10</SG_Mud>
+    </products>
+    <recipeUsers>
+      <li>SG_Faucet</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+   <RecipeDef>
+    <defName>SR_SoilToMudRecipe</defName>
+    <label>make mud from soil</label>
+    <description>Make mud x10 from soil.</description>
+    <jobString>Saturating soil.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+      	<filter>
+      		<thingDefs>
+      			<li>SR_Soil</li>
+      		</thingDefs>
+      	</filter>
+      	<count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      	<li>SR_Soil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SG_Mud>10</SG_Mud>
+    </products>
+    <recipeUsers>
+      <li>SG_Faucet</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+   <RecipeDef>
+    <defName>SR_RichSoilToMudRecipe</defName>
+    <label>make mud from rich soil</label>
+    <description>Make mud x10 from rich soil.</description>
+    <jobString>Saturating rich soil.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+      	<filter>
+      		<thingDefs>
+      			<li>SR_RichSoil</li>
+      		</thingDefs>
+      	</filter>
+      	<count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+      	<li>SR_RichSoil</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
