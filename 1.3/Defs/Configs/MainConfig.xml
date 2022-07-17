@@ -4,7 +4,7 @@
 	<Growverhaul.GrowverhaulConfig>
 		<defName>MainConfig</defName>
 		<ideoLocks>
-			<li>
+			<li MayRequire = "SirMashedPotato.MorrowRim.TheSixthHouse">
 				<memeDef>MorrowRim_Structure_OriginDagothUr</memeDef>
 				<recipeUnlocks>
 					<li>SG_ExtractVolcanicAshFromBlightedRecipe</li>
