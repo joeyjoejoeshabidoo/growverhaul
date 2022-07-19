@@ -3,7 +3,7 @@
 	<RecipeDef MayRequire="Helixien.Additions">
 		<defName>SG_TarredMudRecipe</defName>
 		<label>make tarred mud from mud and tar bucket</label>
-		<description>Make tarred mud x10 from mud and tar bucket.</description>
+		<description>Make tarred mud from mud and tar bucket.</description>
 		<jobString>Making tarred mud.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
@@ -46,7 +46,7 @@
 	<RecipeDef MayRequire="Helixien.Additions">
 		<defName>SG_TarredMudExtractionRecipe</defName>
 		<label>make tar bucket from tarred mud</label>
-		<description>Make tar bucket x5 from tarred mud.</description>
+		<description>Make tar bucket from tarred mud.</description>
 		<jobString>Extracting tarred mud.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
