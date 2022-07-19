@@ -18,6 +18,35 @@
                 </li>
 
                 <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "MossyTerrain"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SR_Soil>9</SR_Soil>
+												<SG_Gravel>2</SG_Gravel>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "PackedDirt"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<SG_DepletedSoil>10</SG_DepletedSoil>
+											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
                     <xpath>/Defs/TerrainDef[defName = "SoftSand"]</xpath>
                     <value>
                       <placeWorkers>
