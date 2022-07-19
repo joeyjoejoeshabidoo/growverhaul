@@ -239,6 +239,42 @@
                 </li>
 
                 <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "GU_MetalFloor1"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<Steel>6</Steel>
+											</costList>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "GU_MetalFloor2"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<Steel>8</Steel>
+											</costList>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "GU_MetalFloor3"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<Steel>4</Steel>
+											</costList>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
                     <xpath>/Defs/TerrainDef[defName = "AB_MycoticSoil"]</xpath>
                     <value>
                       <placeWorkers>
@@ -646,11 +682,35 @@
 									</value>
 								</li>
 
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor1"]/statBases</xpath>
+									<value>
+										<WorkToBuild>400</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor2"]/statBases</xpath>
+									<value>
+										<WorkToBuild>400</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor3"]/statBases</xpath>
+									<value>
+										<WorkToBuild>400</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
+
 
 								<li Class="PatchOperationAdd">
 									<xpath>/Defs/TerrainDef[defName = "GU_Piping"]/statBases</xpath>
 									<value>
-										<WorkToBuild>200</WorkToBuild>
+										<WorkToBuild>400</WorkToBuild>
 										<MarketValue>0</MarketValue>
 									</value>
 								</li>
@@ -842,6 +902,27 @@
 										<li>Diggable</li>
 									</value>
 								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor1"]/affordances</xpath>
+									<value>
+										<li>Diggable</li>
+									</value>
+								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor2"]/affordances</xpath>
+									<value>
+										<li>Diggable</li>
+									</value>
+								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "GU_MetalFloor3"]/affordances</xpath>
+									<value>
+										<li>Diggable</li>
+									</value>
+								</li>
 
 								<!--Removing DriesTo-->
 								<li Class="PatchOperationRemove">
@@ -874,4 +955,5 @@
 						</operations>
 				</match>
 		</Operation>
+
 </Patch>
