@@ -119,11 +119,13 @@
 
 								<!--Diggable-->
 								<li Class="PatchOperationAdd">
-									<xpath>/Defs/TerrainDef[defName = "PoisonMud"]/affordances</xpath>
-									<value>
-										<li>Diggable</li>
-									</value>
-								</li>
+                                    <xpath>/Defs/TerrainDef[defName = "PoisonMud"]</xpath>
+                                    <value>
+                                        <affordances>
+                                            <li>Diggable</li>
+                                        </affordances>
+                                    </value>
+                                </li>
 								
 								<!--Removing DriesTo-->
 								<li Class="PatchOperationRemove">
