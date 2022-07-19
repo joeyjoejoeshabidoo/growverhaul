@@ -3,7 +3,7 @@
   <RecipeDef>
     <defName>SG_GravelFromStoneChunkRecipe</defName>
     <label>make gravel from stone chunk</label>
-    <description>Make gravel x10 from stone chunk.</description>
+    <description>Make gravel from stone chunk.</description>
     <jobString>Making gravel.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -27,7 +27,7 @@
       </categories>
     </fixedIngredientFilter>
     <products>
-      <SG_Gravel>10</SG_Gravel>
+      <SG_Gravel>20</SG_Gravel>
     </products>
     <recipeUsers>
       <li>TableStonecutter</li>
@@ -37,7 +37,7 @@
  <RecipeDef>
     <defName>SG_WormStarterRecipe</defName>
     <label>make worm starters from compost and worms</label>
-    <description>Make worm starter x10 from compost and worms.</description>
+    <description>Make worm starter from compost and worms.</description>
     <jobString>Making worm starter.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -79,8 +79,8 @@
 
  <RecipeDef>
     <defName>SG_RichSoilRecipe</defName>
-    <label>make rich soil from soil, worms and compost</label>
-    <description>Make rich soil x1 from soil, worms and compost.</description>
+    <label>make rich soil from soil and worms</label>
+    <description>Make rich soil from soil and worms.</description>
     <jobString>Making rich soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -90,20 +90,12 @@
     <targetCountAdjustment>10</targetCountAdjustment>
     <ingredients>
       <li>
-        <filter>
-          <thingDefs>
-          	<li>WHC_Compost</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
       	<filter>
       		<thingDefs>
       			<li>SG_Worms</li>
       		</thingDefs>
       	</filter>
-      	<count>2</count>
+      	<count>3</count>
       </li>
       <li>
       	<filter>
@@ -111,18 +103,17 @@
       			<li>SR_Soil</li>
       		</thingDefs>
       	</filter>
-      	<count>1</count>
+      	<count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-      	<li>WHC_Compost</li>
       	<li>SG_Worms</li>
       	<li>SR_Soil</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SR_RichSoil>1</SR_RichSoil>
+      <SR_RichSoil>10</SR_RichSoil>
     </products>
     <recipeUsers>
       <li>SG_GardeningTable</li>
@@ -132,7 +123,7 @@
  <RecipeDef>
     <defName>SG_StonySoilRecipe</defName>
     <label>make stony soil from gravel and compost</label>
-    <description>Make stony soil x1 from gravel and compost.</description>
+    <description>Make stony soil from gravel and compost.</description>
     <jobString>Making stony soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -161,7 +152,7 @@
     <fixedIngredientFilter>
       <thingDefs>
       	<li>SG_Gravel</li>
-      	<li>SG_Worms</li>
+      	<li>WHC_Compost</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -175,7 +166,7 @@
  <RecipeDef>
     <defName>SG_SoilWithStonySoilRecipe</defName>
     <label>make soil from stony soil and compost</label>
-    <description>Make soil x1 from stony soil and compost.</description>
+    <description>Make soil from stony soil and compost.</description>
     <jobString>Making soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -218,7 +209,7 @@
  <RecipeDef>
     <defName>SG_SoilFromCompostRecipe</defName>
     <label>make soil from compost</label>
-    <description>Make soil x1 from compost.</description>
+    <description>Make soil from compost.</description>
     <jobString>Making soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -251,8 +242,8 @@
 
  <RecipeDef>
     <defName>SG_UnRichSoilRecipe</defName>
-    <label>make soil and worms from rich soil</label>
-    <description>Make soil x1 and worms x1 from rich soil.</description>
+    <label>pull worms from rich soil</label>
+    <description>Pull worms from rich soil.</description>
     <jobString>Exctracting worms from rich soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -276,8 +267,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SG_Worms>10</SG_Worms>
-      <SR_Soil>1</SR_Soil>
+      <SG_Worms>3</SG_Worms>
     </products>
     <recipeUsers>
       <li>SG_GardeningTable</li>
@@ -287,7 +277,7 @@
  <RecipeDef>
     <defName>SG_SoilWithDepletedSoilRecipe</defName>
     <label>make soil from depleted soil and compost</label>
-    <description>Make soil x1 from depleted soil and compost.</description>
+    <description>Make soil from depleted soil and compost.</description>
     <jobString>Making soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -310,7 +300,7 @@
       			<li>SG_DepletedSoil</li>
       		</thingDefs>
       	</filter>
-      	<count>1</count>
+      	<count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -330,7 +320,7 @@
  <RecipeDef>
     <defName>SG_DepletedSoilRecipe</defName>
     <label>make depleted soil from gravel and compost</label>
-    <description>Make depleted soil x1 from gravel and compost.</description>
+    <description>Make depleted soil from gravel and compost.</description>
     <jobString>Making depleted soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -363,7 +353,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <SG_DepletedSoil>1</SG_DepletedSoil>
+      <SG_DepletedSoil>5</SG_DepletedSoil>
     </products>
     <recipeUsers>
       <li>SG_GardeningTable</li>
@@ -373,7 +363,7 @@
    <RecipeDef>
     <defName>SG_DepletedSoilToMudRecipe</defName>
     <label>make mud from depleted soil</label>
-    <description>Make mud x10 from depleted soil.</description>
+    <description>Make mud from depleted soil.</description>
     <jobString>Saturating depleted soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -407,7 +397,7 @@
    <RecipeDef>
     <defName>SR_StonySoilToMudRecipe</defName>
     <label>make mud from stony soil</label>
-    <description>Make mud x10 from stony soil.</description>
+    <description>Make mud from stony soil.</description>
     <jobString>Saturating stony soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -441,7 +431,7 @@
    <RecipeDef>
     <defName>SR_SoilToMudRecipe</defName>
     <label>make mud from soil</label>
-    <description>Make mud x10 from soil.</description>
+    <description>Make mud from soil.</description>
     <jobString>Saturating soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
@@ -475,7 +465,7 @@
    <RecipeDef>
     <defName>SR_RichSoilToMudRecipe</defName>
     <label>make mud from rich soil</label>
-    <description>Make mud x10 from rich soil.</description>
+    <description>Make mud from rich soil.</description>
     <jobString>Saturating rich soil.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>CutStone</effectWorking>
