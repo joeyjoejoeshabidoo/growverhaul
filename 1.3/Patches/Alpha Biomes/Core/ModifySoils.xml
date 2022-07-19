@@ -31,6 +31,8 @@
 												<SR_Soil>10</SR_Soil>
 												<Hay>10</Hay>
 											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
                     </value>
                 </li>
 
