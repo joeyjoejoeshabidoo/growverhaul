@@ -76,6 +76,18 @@
                     </value>
                 </li>
 				
+        		<li Class="PatchOperationAdd">
+                    <xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]</xpath>
+                    <value>
+                      <placeWorkers>
+												<li>SR.PlaceWorker_Soil</li>
+											</placeWorkers>
+											<costList>
+												<Steel>2</Steel>
+											</costList>
+                    </value>
+                </li>
+				
 								<!--WorkToBuild, MarketValue-->	
 								<li Class="PatchOperationAdd">
 									<xpath>/Defs/TerrainDef[defName = "PoisonMarshyTerrain"]/statBases</xpath>
@@ -116,6 +128,14 @@
 										<MarketValue>0</MarketValue>
 									</value>
 								</li>
+								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/statBases</xpath>
+									<value>
+										<WorkToBuild>200</WorkToBuild>
+										<MarketValue>0</MarketValue>
+									</value>
+								</li>
 
 								<!--Diggable-->
 								<li Class="PatchOperationAdd">
@@ -127,6 +147,13 @@
                                     </value>
                                 </li>
 								
+								<li Class="PatchOperationAdd">
+									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/affordances</xpath>
+									<value>
+										<li>Diggable</li>
+									</value>
+								</li>
+								
 								<!--Removing DriesTo-->
 								<li Class="PatchOperationRemove">
 									<xpath>/Defs/TerrainDef[defName = "PoisonMarshyTerrain"]/driesTo</xpath>
@@ -137,81 +164,5 @@
 								</li>
 						</operations>
 				</match>
-		</Operation>
-		<Operation Class="PatchOperationFindMod">
-        	<mods>
-            	<li>Expanded Materials - Plastics</li>
-        	</mods>
-        	<match Class="PatchOperationSequence">
-				<success>Always</success>
-        		<operations>
-        				<!--designatorDropdown, costList, designationCategory-->
-        				<li Class="PatchOperationAdd">
-                    <xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]</xpath>
-                    <value>
-                      <placeWorkers>
-												<li>SR.PlaceWorker_Soil</li>
-											</placeWorkers>
-											<costList>
-												<VMEu_AsphaltMix>10</VMEu_AsphaltMix>
-											</costList>
-											<designatorDropdown>SR</designatorDropdown>
-											<designationCategory>Floors</designationCategory>
-                    </value>
-                </li>
-				
-                <!--WorkToBuild, MarketValue-->
-        				<li Class="PatchOperationAdd">
-									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/statBases</xpath>
-									<value>
-										<WorkToBuild>200</WorkToBuild>
-										<MarketValue>0</MarketValue>
-									</value>
-								</li>
-
-								<!--Diggable-->
-								<li Class="PatchOperationAdd">
-									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/affordances</xpath>
-									<value>
-										<li>Diggable</li>
-									</value>
-								</li>
-							</operations>
-        	</match>
-        	<nomatch Class="PatchOperationSequence">
-        		<operations>
-        				<!--designatorDropdown, costList, designationCategory-->
-        				<li Class="PatchOperationAdd">
-                    <xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]</xpath>
-                    <value>
-                      <placeWorkers>
-												<li>SR.PlaceWorker_Soil</li>
-											</placeWorkers>
-											<costList>
-												<Steel>10</Steel>
-											</costList>
-											<designatorDropdown>SR</designatorDropdown>
-											<designationCategory>Floors</designationCategory>
-                    </value>
-                </li>
-
-                <!--WorkToBuild, MarketValue-->
-        				<li Class="PatchOperationAdd">
-									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/statBases</xpath>
-									<value>
-										<WorkToBuild>200</WorkToBuild>
-										<MarketValue>0</MarketValue>
-									</value>
-								</li>
-
-								<!--Diggable-->
-								<li Class="PatchOperationAdd">
-									<xpath>/Defs/TerrainDef[defName = "WastelandAsphalt"]/affordances</xpath>
-									<value>
-										<li>Diggable</li>
-									</value>
-								</li>
-							</operations>
-        	</nomatch>			
 		</Operation>
 </Patch>
