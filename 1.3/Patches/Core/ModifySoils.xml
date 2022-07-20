@@ -133,8 +133,10 @@
 												<li>SR.PlaceWorker_Soil</li>
 											</placeWorkers>
 											<costList>
-												<VMEu_AsphaltMix>10</VMEu_AsphaltMix>
+												<VMEu_AsphaltMix>2</VMEu_AsphaltMix>
 											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
                     </value>
                 </li>
 
@@ -166,8 +168,10 @@
 												<li>SR.PlaceWorker_Soil</li>
 											</placeWorkers>
 											<costList>
-												<Steel>10</Steel>
+												<Steel>2</Steel>
 											</costList>
+											<designatorDropdown>SR</designatorDropdown>
+											<designationCategory>Floors</designationCategory>
                     </value>
                 </li>
 
